@@ -11,3 +11,5 @@ for x in range(m,b,1):
          c=c+1
          if (d==2):
              print(x)
+     c=1
+     d=0
