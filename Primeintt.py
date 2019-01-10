@@ -1,15 +1,14 @@
 a=int(input())
 b=int(input())
-c=1
-d=0
-m=a+1
-for x in range(m,b,1):
-     while (c<=x):
-         e=x%c
-         if (e==0):
-            d=d+1
-         c=c+1
-         if (d==2):
-             print(x)
-     c=1
-     d=0
+for x in range(a+1,b):
+    d=1
+    g=0
+    while d is not b:
+        f=x%d
+        d=d+1
+        if f==0:
+            g=g+1
+    if g==2:
+        print(x)
+
+
