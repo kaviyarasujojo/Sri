@@ -1,7 +1,6 @@
 a=int(input())
 b=1
 c=[]
-e=[]
 while (b<=a):
 	d=int(input())
 	c.append(d)
