@@ -1,2 +1,2 @@
-y=input()
-print(y+".")
+s=input()
+print(s+".")
