@@ -1,3 +1,3 @@
-a=input()
+c=input()
 b=input()
-print(a+b)
+print(c+b)
