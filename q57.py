@@ -1,10 +1,8 @@
 a,b=input().split()
-d=[]
+c=[]
+c=input().split()
 e=0
-for i in range(int(a)):
-    c=int(input())
-    d.append(c)
-for i in range(int(a)):
-    if(d[i]==int(b)):
+for i in range(1,int(a)+1):
+    if(int(c[i-1])==int(b)):
         e+=1
 print(e)
