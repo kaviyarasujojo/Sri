@@ -9,6 +9,6 @@ for x in range(m,n,1):
         d=d+1
     c=c+1
 if(d==2):
-   print("YES")
+   print("yes")
 else:
-   print("NO")
+   print("no")
