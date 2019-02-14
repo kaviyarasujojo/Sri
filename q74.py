@@ -1,2 +1,2 @@
-a=float(input())
-print(int(a)+1)
+q=float(input())
+print(int(q)+1)
