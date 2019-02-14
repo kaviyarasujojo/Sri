@@ -1,5 +1,5 @@
-a=int(input())
-if(a%13==0):
+q=int(input())
+if(q%13==0):
     print("yes")
 else:
     print("no")
