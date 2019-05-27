@@ -1,4 +1,4 @@
 import math
-a,b=input().split()
-c=math.gcd(int(a),int(b))
-print((int(a)*int(b))//c)
+u,v=input().split()
+q=math.gcd(int(u),int(v))
+print((int(u)*int(v))//q)
