@@ -7,6 +7,6 @@ while e>0:
     d=int(e/10)
     e=d
 if (c==a):
-    print("YES")
+    print("yes")
 else:
-    print("NO")
+    print("no")
