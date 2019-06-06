@@ -1,6 +1,5 @@
-a=int(input())
-b=int(input())
-for x in range(a+1,b):
+a,b=input().split()
+for x in range(int(a)+1,int(b)):
     d=0
     e=x
     while (e!=0):
