@@ -1,9 +1,7 @@
 a=int(input())
-b=1
-c=[]
-while (b<=a):
-	d=int(input())
-	c.append(d)
-	b=b+1
-	c.sort()
-print(c)
+b=input().split()
+c=''
+b.sort(key=int)
+for i in range(len(b)-1):
+	c+=b[i]+" "
+print(c+b[-1])
