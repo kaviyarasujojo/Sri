@@ -1,5 +1,4 @@
-a=input()
-b=input()
+a,b=input().split()
 if (len(a)>len(b)):
     print(a)
 elif (len(b)>len(a)):
