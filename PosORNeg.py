@@ -1,8 +1,8 @@
 # Sri
 a=int(input())
 if (a<0):
-	print("The number is negative")
+	print("Negative")
 elif (a==0):
-	print("The Number is Zero")
+	print("Zero")
 else:
-	print("The Number is positive")
+	print("Positive")
