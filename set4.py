@@ -1,3 +1,3 @@
-a,b=input().split()
-for i in range(int(b)):
-  print(a)
+u,v=input().split()
+for i in range(int(v)):
+  print(u)
