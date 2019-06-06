@@ -1,7 +1,7 @@
-a,b=int(input()),int(input())
-c,d=int(input()),int(input())
-e=(a*60)+b
-f=(c*60)+d
+a,b=input().split()
+c,d=input().split()
+e=(int(a)*60)+int(b)
+f=(int(c)*60)+int(d)
 g=abs(e-f)
 h=g%60
 i=g//60
