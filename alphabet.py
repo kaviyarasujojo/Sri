@@ -1,5 +1,5 @@
 a=input()
-if a>='a' and a<='z':
-    print("It is Alphabet")
+if 'a'<=a<='z':
+    print("Alphabet")
 else:
-    print("It is not an alphabet")
+    print("No")
