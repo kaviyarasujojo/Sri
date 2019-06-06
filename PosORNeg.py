@@ -1,8 +1,8 @@
 # Sri
-a=int(input())
-if (a<0):
+z=int(input())
+if (z<0):
 	print("Negative")
-elif (a==0):
+elif (z==0):
 	print("Zero")
 else:
 	print("Positive")
