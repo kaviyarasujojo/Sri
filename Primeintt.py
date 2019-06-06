@@ -1,14 +1,15 @@
-a=int(input())
-b=int(input())
-for x in range(a+1,b):
-    d=1
-    g=0
-    while d is not b:
-        f=x%d
-        d=d+1
-        if f==0:
-            g=g+1
-    if g==2:
-        print(x)
-
-
+a,b=input().split()
+e=[]
+f=''
+for i in range(int(a)+1,int(b)):
+  c=1
+  d=0
+  while c<=i:
+    if i%c==0:
+      d+=1
+    c+=1
+  if d==2:
+    e.append(i)
+for i in range(len(e)-1):
+  f+=str(e[i])+" "
+print(f+str(e[-1]))
