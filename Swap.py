@@ -1,6 +1,5 @@
-a=int(input())
-b=int(input())
-c=a
-a=b
+a,b=input().split()
+c=int(a)
+a=int(b)
 b=c
 print(a,b)
