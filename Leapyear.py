@@ -1,5 +1,5 @@
 a=int(input())
-if(a%4)==0:
-    print("It is a leap year")
+if(a%4)==0 and a%400==0:
+    print("yes")
 else:
-    print("It is not a leap year")
+    print("no")
