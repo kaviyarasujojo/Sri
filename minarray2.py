@@ -1,9 +1,3 @@
 a=int(input())
-b=1
-c=[]
-while (b<=a):
-	d=int(input())
-	c.append(d)
-	b=b+1
-	c.sort()
-print(c[0])
+b=input().split()
+print(min(b,key=int))
