@@ -1,6 +1,9 @@
-a=int(input())
-b=int(input())
-c=a+1
-for x in range(c,b,1):
-    if(x%2)==0:
-        print(x)
+a,b=input().split()
+c=[]
+d=''
+for i in range(int(a)+1,int(b)):
+    if i%2==0:
+        c.append(i)
+for i in range(len(c)-1):
+    d+=str(c[i])+" "
+print(d+str(c[-1]))
