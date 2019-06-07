@@ -1,2 +1,2 @@
-q=input().split()
-print(max(q,key=int))
+n=input().split()
+print(max(n,key=int))
